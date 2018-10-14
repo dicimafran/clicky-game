@@ -1,0 +1,27 @@
+.jumbotron {
+    color: white;
+    background-color: rgb(8, 12, 20);
+    
+}
+
+#tew {
+    background-color: transparent;
+}
+
+.col > img {
+    padding: 1em;
+    max-height: 250px;
+    max-width:250px;
+    border: black solid 1px;
+    background-color: #cfcfcf;;
+    box-shadow: 5px 5px 5px black;
+  }
+
+.col > img:hover {
+    box-shadow: 5px 5px 5px white;
+}
+
+.row {
+    padding: 2em;
+}
+
