@@ -12,6 +12,7 @@
     padding: 1em;
     max-height: 250px;
     max-width:250px;
+    overflow:hidden;
     border: black solid 1px;
     background-color: #cfcfcf;;
     box-shadow: 5px 5px 5px black;

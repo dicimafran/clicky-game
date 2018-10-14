@@ -50,19 +50,19 @@ const CharacterImages = () => {
     <div className="container">
       <div className="row">
 
-        <div className="col s3 char">
+        <div className="col sm12 md6 lg3 p-3 text-center">
           <img src={characters[0].image} />
         </div>
 
-          <div className="col s3 p-0">
+          <div className="col sm12 md6 lg3 p-3 text-center">
           <img src={characters[1].image} />
         </div>
 
-          <div className="col s3 p-0">
+          <div className="col sm12 md6 lg3 p-3 text-center">
           <img src={characters[3].image} />
         </div>
 
-          <div className="col s3 p-0">
+          <div className="col sm12 md6 lg3 p-3 text-center">
           <img src={characters[6].image} />
         </div>
 
