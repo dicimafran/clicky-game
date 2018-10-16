@@ -1,86 +1,73 @@
 [{
     "id": 1,
     "name": "Ruvik",
-    "clicked": false,
-    "image":
-    "https://vignette.wikia.nocookie.net/the-evil-within/images/f/f2/Tumblr_o40g6lMduZ1t0c9nco2_400.png/revision/latest?cb=20160401224709"
+    "image": "https://vignette.wikia.nocookie.net/the-evil-within/images/f/f2/Tumblr_o40g6lMduZ1t0c9nco2_400.png/revision/latest?cb=20160401224709"
   },
   {
     "id": 2,
     "name": "Joseph Oda",
-    "clicked": false,
     "image":
     "https://vignette.wikia.nocookie.net/the-evil-within/images/6/65/Joseph.jpg/revision/latest?cb=20140918193248"
   },
   {
     "id": 3,
     "name": "Leslie Withers",
-    "clicked": false,
     "image":
     "https://vignette.wikia.nocookie.net/the-evil-within/images/2/2b/Leslie_25.jpg/revision/latest?cb=20141103082334"
   },
   {
     "id": 4,
     "name": "Sebastian Castellanos",
-    "clicked": false,
     "image":
     "https://vignette.wikia.nocookie.net/the-evil-within/images/5/55/Sebastian.jpg/revision/latest?cb=20140918193022"
   },
   {
     "id": 5,
     "name": "Julie Kidman",
-    "clicked": false,
     "image":
     "https://vignette.wikia.nocookie.net/the-evil-within/images/d/d8/Julie.jpg/revision/latest?cb=20140918193031"
   },
   {
     "id": 6,
     "name": "Shade",
-    "clicked": false,
     "image":
     "https://vignette.wikia.nocookie.net/the-evil-within/images/0/04/Image-0.jpg/revision/latest/scale-to-width-down/1000?cb=20150315042522"
   },
   {
     "id": 7,
     "name": "Laura Creature",
-    "clicked": false,
     "image":
     "https://vignette.wikia.nocookie.net/the-evil-within/images/7/7c/The_evil_within-RE-Bone_Laura-07.jpg/revision/latest?cb=20141026080518"
   },
   {
     "id": 8,
     "name": "Keeper",
-    "clicked": false,
     "image":
     "https://vignette.wikia.nocookie.net/the-evil-within/images/5/51/Behind-The_Evil_Within_0001.jpg/revision/latest/scale-to-width-down/300?cb=20141021074423"
   },
   {
     "id": 9,
-    "name": "Ruvik",
-    "clicked": false,
+    "name": "Tatiana",
     "image":
-    "https://vignette.wikia.nocookie.net/the-evil-within/images/f/f2/Tumblr_o40g6lMduZ1t0c9nco2_400.png/revision/latest?cb=20160401224709"
+    "https://vignette.wikia.nocookie.net/the-evil-within/images/8/84/TEW_big_Tatiana_Gutierrez.jpg/revision/latest?cb=20141216084534"
   },
   {
     "id": 10,
-    "name": "Ruvik",
-    "clicked": false,
+    "name": "Victoriano family",
     "image":
-    "https://vignette.wikia.nocookie.net/the-evil-within/images/f/f2/Tumblr_o40g6lMduZ1t0c9nco2_400.png/revision/latest?cb=20160401224709"
+    "https://vignette.wikia.nocookie.net/the-evil-within/images/3/3b/Art-qdqlkxo10_0020.jpg/revision/latest?cb=20141026075929"
   },
   {
     "id": 11,
-    "name": "Ruvik",
-    "clicked": false,
+    "name": "Sadist",
     "image":
-    "https://vignette.wikia.nocookie.net/the-evil-within/images/f/f2/Tumblr_o40g6lMduZ1t0c9nco2_400.png/revision/latest?cb=20160401224709"
+    "https://vignette.wikia.nocookie.net/the-evil-within/images/b/ba/SadistPortrait.png/revision/latest?cb=20180420035002"
   },
   {
     "id": 12,
-    "name": "Ruvik",
-    "clicked": false,
+    "name": "Young Ruvik",
     "image":
-    "https://vignette.wikia.nocookie.net/the-evil-within/images/f/f2/Tumblr_o40g6lMduZ1t0c9nco2_400.png/revision/latest?cb=20160401224709"
+    "https://vignette.wikia.nocookie.net/the-evil-within/images/0/0a/Young_Ruben_TEW_Wikia.png/revision/latest?cb=20141201115506"
   }
 ]
   
