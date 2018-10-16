@@ -13,6 +13,7 @@ class Jumbotron extends Component {
             <img src= {tew} id= "tew"/>
             <p className="lead"> This is a memory game where you dare not to click on the same character more than once. </p>
             <p> Click on the characters if you dare! </p>
+            <h3> Score: {this.props.score} </h3>
           </center>
         </div>
       </div>

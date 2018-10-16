@@ -23,22 +23,22 @@ class App extends Component {
   // On the click of a card/image, the targeted character is taken out of the array
   imageClick = event => {
     const currentCharacter = event.target.alt;
-    const characterAlreadyClicked =
-      this.state.clickedCharacters.indexOf(currentCharacter) > -1;
+    const characterAlreadyClicked = this.state.clickedCharacters.indexOf(currentCharacter) > -1;
 
     //if you click on a character that has already been selected, the game is reset and cards reordered
     if (characterAlreadyClicked) {
-      this.setState({
-        character: this.state.characters.sort(function (a, b) {
-          return 0.5 - Math.random();
-        }),
+      this.setState({ 
+        character: this.state.characters.sort((a, b) => { return 0.5 - Math.random(); }),
         clickedCharacters: [],
         score: 0
-      });
-      alert("You lose. Play again?");
+      })
+      alert("You lose. Play again?"); 
+    }
+
+      
 
       //if you click on an available character, your score is increased and cards reordered
-    } else {
+    else{
       this.setState(
         {
           character: this.state.characters.sort(function (a, b) {
@@ -72,19 +72,18 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Navbar
-          score={this.state.score}
-        />
-        <Jumbotron />
-        <div className="wrapper">
-          {this.state.characters.map(character => (
-            <FriendCard
-              imageClick={this.imageClick}
-              id={character.id}
-              key={character.id}
-              image={character.image}
-            />
-          ))}
+ 
+        <Jumbotron score={this.state.score} />
+        <div className="container">
+          <div className="wrapper">
+
+          <div className= "row"> 
+            {this.state.characters.map(character => (
+              <FriendCard imageClick={this.imageClick} id={character.id} key={character.id} image={character.image}/>
+            ))}
+          </div>
+
+          </div>
         </div>
         <Footer />
       </div>
@@ -146,22 +145,6 @@ const CharacterCards = props => {
 
 /*  Notes to self
 
-// Practicing OOP style here. I can always turn these into components later on. This just seems easier to preview everything for now.
-const Jumbotron = () => {
-  return (
-    <div className="jumbotron">
-      <div className="container.png">
-        <center>
-          <img src= {tew} id= "tew"/>
-          <p className="lead"> This is a game where you dare not to click on the same character more than once. </p>
-          <p> Click on the characters if you dare! </p>
-        </center>
-      </div>
-    </div>
-  )
-}
-
-  
     Since App is already being exported, there"s no need to do the whole class App extends component.
     
     Fragments- Experimenting with app fragments. They let you group a list of children without adding extra nodes to the DOM:
